@@ -1,0 +1,20 @@
+{
+  "name": "VirtualDom",
+  "version": "1.0.0",
+  "description": "Creating My Own Virtual Dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil241993/VirtualDom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahil241993/VirtualDom/issues"
+  },
+  "homepage": "https://github.com/sahil241993/VirtualDom#readme"
+}
