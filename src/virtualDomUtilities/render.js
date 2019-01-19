@@ -1,4 +1,4 @@
-const render = ({tagName, attrs, children}) => {
+const renderElem = ({tagName, attrs, children}) => {
     const $element = document.createElement(tagName);
 
     // set attribute
@@ -13,6 +13,13 @@ const render = ({tagName, attrs, children}) => {
         $element.append($childElement);
     }
     return $element;
+}
+
+const render = (vNode) => {
+    if(typeof vNode === 'string'){
+        return document.createTextNode(vNode);
+    }
+    return renderElem(vNode)
 }
 
 export default render;
